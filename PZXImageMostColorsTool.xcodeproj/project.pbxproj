@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910366E724761CD5005EC472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910366E624761CD5005EC472 /* AppDelegate.m */; };
+		910366EA24761CD5005EC472 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910366E924761CD5005EC472 /* SceneDelegate.m */; };
+		910366ED24761CD5005EC472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910366EC24761CD5005EC472 /* ViewController.m */; };
+		910366F024761CD5005EC472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910366EE24761CD5005EC472 /* Main.storyboard */; };
+		910366F224761CD8005EC472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910366F124761CD8005EC472 /* Assets.xcassets */; };
+		910366F524761CD8005EC472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910366F324761CD8005EC472 /* LaunchScreen.storyboard */; };
+		910366F824761CD8005EC472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 910366F724761CD8005EC472 /* main.m */; };
+		9103670124761DAA005EC472 /* PZXImageMostColorsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9103670024761DAA005EC472 /* PZXImageMostColorsTool.m */; };
+		9103670324762BD0005EC472 /* 深色.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9103670224762BCF005EC472 /* 深色.jpeg */; };
+		9103670524762BE6005EC472 /* 浅色.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9103670424762BE6005EC472 /* 浅色.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		910366E224761CD5005EC472 /* PZXImageMostColorsTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZXImageMostColorsTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910366E524761CD5005EC472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		910366E624761CD5005EC472 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		910366E824761CD5005EC472 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		910366E924761CD5005EC472 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		910366EB24761CD5005EC472 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		910366EC24761CD5005EC472 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		910366EF24761CD5005EC472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		910366F124761CD8005EC472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		910366F424761CD8005EC472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		910366F624761CD8005EC472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910366F724761CD8005EC472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		910366FF24761DAA005EC472 /* PZXImageMostColorsTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZXImageMostColorsTool.h; sourceTree = "<group>"; };
+		9103670024761DAA005EC472 /* PZXImageMostColorsTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXImageMostColorsTool.m; sourceTree = "<group>"; };
+		9103670224762BCF005EC472 /* 深色.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "深色.jpeg"; sourceTree = "<group>"; };
+		9103670424762BE6005EC472 /* 浅色.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "浅色.jpeg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910366DF24761CD5005EC472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910366D924761CD5005EC472 = {
+			isa = PBXGroup;
+			children = (
+				910366E424761CD5005EC472 /* PZXImageMostColorsTool */,
+				910366E324761CD5005EC472 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		910366E324761CD5005EC472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910366E224761CD5005EC472 /* PZXImageMostColorsTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910366E424761CD5005EC472 /* PZXImageMostColorsTool */ = {
+			isa = PBXGroup;
+			children = (
+				910366FE24761D90005EC472 /* PZXImageMostColorsTool */,
+				910366E524761CD5005EC472 /* AppDelegate.h */,
+				910366E624761CD5005EC472 /* AppDelegate.m */,
+				910366E824761CD5005EC472 /* SceneDelegate.h */,
+				910366E924761CD5005EC472 /* SceneDelegate.m */,
+				910366EB24761CD5005EC472 /* ViewController.h */,
+				910366EC24761CD5005EC472 /* ViewController.m */,
+				910366EE24761CD5005EC472 /* Main.storyboard */,
+				910366F124761CD8005EC472 /* Assets.xcassets */,
+				910366F324761CD8005EC472 /* LaunchScreen.storyboard */,
+				910366F624761CD8005EC472 /* Info.plist */,
+				910366F724761CD8005EC472 /* main.m */,
+			);
+			path = PZXImageMostColorsTool;
+			sourceTree = "<group>";
+		};
+		910366FE24761D90005EC472 /* PZXImageMostColorsTool */ = {
+			isa = PBXGroup;
+			children = (
+				9103670224762BCF005EC472 /* 深色.jpeg */,
+				9103670424762BE6005EC472 /* 浅色.jpeg */,
+				910366FF24761DAA005EC472 /* PZXImageMostColorsTool.h */,
+				9103670024761DAA005EC472 /* PZXImageMostColorsTool.m */,
+			);
+			path = PZXImageMostColorsTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910366E124761CD5005EC472 /* PZXImageMostColorsTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910366FB24761CD8005EC472 /* Build configuration list for PBXNativeTarget "PZXImageMostColorsTool" */;
+			buildPhases = (
+				910366DE24761CD5005EC472 /* Sources */,
+				910366DF24761CD5005EC472 /* Frameworks */,
+				910366E024761CD5005EC472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PZXImageMostColorsTool;
+			productName = PZXImageMostColorsTool;
+			productReference = 910366E224761CD5005EC472 /* PZXImageMostColorsTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		910366DA24761CD5005EC472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = pengzuxin;
+				TargetAttributes = {
+					910366E124761CD5005EC472 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 910366DD24761CD5005EC472 /* Build configuration list for PBXProject "PZXImageMostColorsTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 910366D924761CD5005EC472;
+			productRefGroup = 910366E324761CD5005EC472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910366E124761CD5005EC472 /* PZXImageMostColorsTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910366E024761CD5005EC472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9103670324762BD0005EC472 /* 深色.jpeg in Resources */,
+				910366F524761CD8005EC472 /* LaunchScreen.storyboard in Resources */,
+				9103670524762BE6005EC472 /* 浅色.jpeg in Resources */,
+				910366F224761CD8005EC472 /* Assets.xcassets in Resources */,
+				910366F024761CD5005EC472 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910366DE24761CD5005EC472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910366ED24761CD5005EC472 /* ViewController.m in Sources */,
+				910366E724761CD5005EC472 /* AppDelegate.m in Sources */,
+				910366F824761CD8005EC472 /* main.m in Sources */,
+				9103670124761DAA005EC472 /* PZXImageMostColorsTool.m in Sources */,
+				910366EA24761CD5005EC472 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		910366EE24761CD5005EC472 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910366EF24761CD5005EC472 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		910366F324761CD8005EC472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910366F424761CD8005EC472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		910366F924761CD8005EC472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		910366FA24761CD8005EC472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		910366FC24761CD8005EC472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK67NLSGSP;
+				INFOPLIST_FILE = PZXImageMostColorsTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXImageMostColorsTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		910366FD24761CD8005EC472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XK67NLSGSP;
+				INFOPLIST_FILE = PZXImageMostColorsTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pzx.PZXImageMostColorsTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910366DD24761CD5005EC472 /* Build configuration list for PBXProject "PZXImageMostColorsTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910366F924761CD8005EC472 /* Debug */,
+				910366FA24761CD8005EC472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910366FB24761CD8005EC472 /* Build configuration list for PBXNativeTarget "PZXImageMostColorsTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910366FC24761CD8005EC472 /* Debug */,
+				910366FD24761CD8005EC472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 910366DA24761CD5005EC472 /* Project object */;
+}
