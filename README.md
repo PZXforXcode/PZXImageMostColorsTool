@@ -8,3 +8,4 @@
 
     }
 ```
+!(https://github.com/PZXforXcode/PZXImageMostColorsTool/blob/master/PZXImageMostColorsTool/tool.gif)
