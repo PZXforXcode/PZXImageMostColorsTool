@@ -8,4 +8,4 @@
 
     }
 ```
-!(https://github.com/PZXforXcode/PZXImageMostColorsTool/blob/master/PZXImageMostColorsTool/tool.gif)
+![在makrdown上生成gif动画](https://github.com/PZXforXcode/PZXImageMostColorsTool/blob/master/PZXImageMostColorsTool/tool.gif)
