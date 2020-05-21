@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "PZXImageMostColorsTool.h"
+#import "PZXImageMostColorsTool/PZXImageMostColorsTool.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
