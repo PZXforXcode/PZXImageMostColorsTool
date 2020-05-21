@@ -17,6 +17,7 @@
 		9103670124761DAA005EC472 /* PZXImageMostColorsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9103670024761DAA005EC472 /* PZXImageMostColorsTool.m */; };
 		9103670324762BD0005EC472 /* 深色.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9103670224762BCF005EC472 /* 深色.jpeg */; };
 		9103670524762BE6005EC472 /* 浅色.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9103670424762BE6005EC472 /* 浅色.jpeg */; };
+		9103670F24765413005EC472 /* tool.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9103670E24765413005EC472 /* tool.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9103670024761DAA005EC472 /* PZXImageMostColorsTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZXImageMostColorsTool.m; sourceTree = "<group>"; };
 		9103670224762BCF005EC472 /* 深色.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "深色.jpeg"; sourceTree = "<group>"; };
 		9103670424762BE6005EC472 /* 浅色.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "浅色.jpeg"; sourceTree = "<group>"; };
+		9103670E24765413005EC472 /* tool.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tool.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				910366E924761CD5005EC472 /* SceneDelegate.m */,
 				910366EB24761CD5005EC472 /* ViewController.h */,
 				910366EC24761CD5005EC472 /* ViewController.m */,
+				9103670E24765413005EC472 /* tool.gif */,
 				910366EE24761CD5005EC472 /* Main.storyboard */,
 				910366F124761CD8005EC472 /* Assets.xcassets */,
 				910366F324761CD8005EC472 /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 				910366F524761CD8005EC472 /* LaunchScreen.storyboard in Resources */,
 				9103670524762BE6005EC472 /* 浅色.jpeg in Resources */,
 				910366F224761CD8005EC472 /* Assets.xcassets in Resources */,
+				9103670F24765413005EC472 /* tool.gif in Resources */,
 				910366F024761CD5005EC472 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
